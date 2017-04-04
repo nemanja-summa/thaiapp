@@ -1,0 +1,2297 @@
+[
+  {
+    "question": {
+      "text": "This sign means:",
+      "url": "/images/minimum30speed.jpeg"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Vehicles weighing more than 30 tons are prohibited."
+      },
+      {
+        "type": 0,
+        "answer": "The maximum speed limit is 30 kilometers per hour."
+      },
+      {
+        "type": 0,
+        "answer": "Vehicles carrying loads weighing more than 30 tons are prohibited."
+      },
+      {
+        "type": 0,
+        "answer": "The minimum speed limit is 30 kilometers per hour"
+      }
+    ],
+    "correct": 3,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "This sign means:",
+      "url": "/images/schoolZone.jpg"
+    },
+    "images": true,
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Pedestrian bridge ahead."
+      },
+      {
+        "type": 0,
+        "answer": "No outlet."
+      },
+      {
+        "type": 0,
+        "answer": "Pedestrian crossing."
+      },
+      {
+        "type": 0,
+        "answer": "School zone. Watch for children."
+      }
+    ],
+    "correct": 3,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "Which of the following statements is true?"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "You may transport loads that extend one meter out from each side of your vehicle."
+      },
+      {
+        "type": 0,
+        "answer": "You may transport loads that extend no more then 2.5 meters from the rear of your vehicle."
+      },
+      {
+        "type": 0,
+        "answer": "You may transport loads no more then 3 meters high."
+      },
+      {
+        "type": 0,
+        "answer": "You may transport loads that extend no more then 2.5 meters from the front of your vehicle."
+      }
+    ],
+    "correct": 1,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "Which of the pictures below illustrates proper parking?"
+    },
+    "answers": [
+      {
+        "type": 1,
+        "answer": "/images/parkCrossRail.png"
+      },
+      {
+        "type": 1,
+        "answer": "/images/parkNextToHouse.png"
+      },
+      {
+        "type": 1,
+        "answer": "/images/parkCrossParkingPlace.png"
+      },
+      {
+        "type": 1,
+        "answer": "/images/parkOnRedWhite.png"
+      }
+    ],
+    "correct": 2,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "In which of the following circumstances is it forbidden to pass?"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "To use the bus lane as a passing lane."
+      },
+      {
+        "type": 0,
+        "answer": "To pass on the left when the vehicle in front of you is turning right."
+      },
+      {
+        "type": 0,
+        "answer": "In front of a hospital."
+      },
+      {
+        "type": 0,
+        "answer": "When there is flooding."
+      }
+    ],
+    "correct": 0,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "The sign mean:",
+      "url": "/images/doNotPass.png"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Single lane traffic."
+      },
+      {
+        "type": 0,
+        "answer": "Drive in the far-left lane."
+      },
+      {
+        "type": 0,
+        "answer": "Do not pass."
+      },
+      {
+        "type": 0,
+        "answer": "One-way traffic."
+      }
+    ],
+    "correct": 2,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "Which of these vehicle may not be driven on a public road?"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "A vehicle without a front windshield."
+      },
+      {
+        "type": 0,
+        "answer": "A vehicle displaying dealer plates."
+      },
+      {
+        "type": 0,
+        "answer": "A vehicle with a horn which can be heard from distance of 60 meters."
+      },
+      {
+        "type": 0,
+        "answer": "A tank used in warfare."
+      }
+    ],
+    "correct": 0,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "When is prohibited to pass?"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Within 30 meters of a crossroad."
+      },
+      {
+        "type": 0,
+        "answer": "Where the road is divided by a broken line."
+      },
+      {
+        "type": 0,
+        "answer": "When you are passing on the left on a road with two or more lanes moving in the same direction."
+      },
+      {
+        "type": 0,
+        "answer": "When you are passing on the left and the vehicle being passed is waiting to turn right."
+      }
+    ],
+    "correct": 0,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "When you see this sign, you should:",
+      "url": "/images/pedestriansCrossing.png"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Proceed if there are no pedestrians crossing."
+      },
+      {
+        "type": 0,
+        "answer": "Reduce your speed. Stop if pedestrians are crossing in front of you."
+      },
+      {
+        "type": 0,
+        "answer": "Proceed as usual."
+      },
+      {
+        "type": 0,
+        "answer": "Drive carefully. You are in school zone."
+      }
+    ],
+    "correct": 1,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "Which of these statements is true?"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "You may not drive a vehicle for which the annual tax has not been paid."
+      },
+      {
+        "type": 0,
+        "answer": "You may allow someone who does not have a driver license to operate your vehicle."
+      },
+      {
+        "type": 0,
+        "answer": "You do not need to carry your driver license when driving."
+      },
+      {
+        "type": 0,
+        "answer": "You may display license plates you have had made yourself."
+      }
+    ],
+    "correct": 0,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "This sign means:",
+      "url": "/images/noUturn.png"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "No cross traffic."
+      },
+      {
+        "type": 0,
+        "answer": "No U-turn."
+      },
+      {
+        "type": 0,
+        "answer": "One way traffic."
+      },
+      {
+        "type": 0,
+        "answer": "Use the right lane."
+      }
+    ],
+    "correct": 1,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "Which type of vehicle is prohibited to use on a public road?"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "A tractor with rubber tires."
+      },
+      {
+        "type": 0,
+        "answer": "A vehicle whose engine is louder then 80 decibels."
+      },
+      {
+        "type": 0,
+        "answer": "A vehicle with broken brake lights."
+      },
+      {
+        "type": 0,
+        "answer": "A tank used in warfare."
+      }
+    ],
+    "correct": 2,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "This sign mean:",
+      "url": "/images/stop.png"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Temporary stopping for loading and unloading."
+      },
+      {
+        "type": 0,
+        "answer": "Stop. Watch for other vehicles in the intersection before proceeding."
+      },
+      {
+        "type": 0,
+        "answer": "Reduce your speed before proceeding."
+      },
+      {
+        "type": 0,
+        "answer": "Parking allowed."
+      }
+    ],
+    "correct": 1,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "Drivers are prohibited to:"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Drive a racing car when permission has been granted by the relevant traffic authorities."
+      },
+      {
+        "type": 0,
+        "answer": "Drift into next lane when there is an obstruction in their own lane."
+      },
+      {
+        "type": 0,
+        "answer": "Park on the right-hand side of a one-way street."
+      },
+      {
+        "type": 0,
+        "answer": "Drive immediately after having consumed alcohol."
+      }
+    ],
+    "correct": 3,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "You must not park:"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "In front of a school."
+      },
+      {
+        "type": 0,
+        "answer": "On a grade."
+      },
+      {
+        "type": 0,
+        "answer": "In front of police station."
+      },
+      {
+        "type": 0,
+        "answer": "On the right-hand side of a two-way street."
+      }
+    ],
+    "correct": 3,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "In the picture, the driver of Car D wishes to go straight. To do so, he/she should:",
+      "url": "/images/crossRoadCarsWaitForCarA.png"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Stop and wait for Car B to turn right before proceeding."
+      },
+      {
+        "type": 0,
+        "answer": "Stop and wait for Car A to pass before proceeding."
+      },
+      {
+        "type": 0,
+        "answer": "Stop and wait for Car C to turn left before proceeding."
+      },
+      {
+        "type": 0,
+        "answer": "Slow down."
+      }
+    ],
+    "correct": 1,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "This sign means:",
+      "type": 1,
+      "answer": "/images/noRightTurn.png"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Left turn permitted."
+      },
+      {
+        "type": 0,
+        "answer": "No right turn."
+      },
+      {
+        "type": 0,
+        "answer": "Right turn permitted."
+      },
+      {
+        "type": 0,
+        "answer": "Sharp curve ahead."
+      }
+    ],
+    "correct": 1,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "When you see this sign, you should:",
+      "url": "/images/curveToTheRight.png"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Should turn left."
+      },
+      {
+        "type": 0,
+        "answer": "Should reduce your speed and carefully enter the curve to the right."
+      },
+      {
+        "type": 0,
+        "answer": "Should reduce your speed and turn right with caution."
+      },
+      {
+        "type": 0,
+        "answer": "May not go straight."
+      }
+    ],
+    "correct": 1,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "This sign means:",
+      "type": 1,
+      "answer": "/images/stopAdvantage.png"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Stop. Give smaller vehicles the right of way."
+      },
+      {
+        "type": 0,
+        "answer": "Stop. Give larger vehicles the right of way."
+      },
+      {
+        "type": 0,
+        "answer": "Reduce your speed and give other vehicles the right of way."
+      },
+      {
+        "type": 0,
+        "answer": "Stop to allow cross traffic or traffic on the main road to pass before proceeding."
+      }
+    ],
+    "correct": 3,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "Which of the pictures below illustrates proper parking?"
+    },
+    "answers": [
+      {
+        "type": 1,
+        "answer": "/images/parkCrossParkingPlace.png"
+      },
+      {
+        "type": 1,
+        "answer": "/images/parkOnYellowWhite.png"
+      },
+      {
+        "type": 1,
+        "answer": "/images/parkOnRedWhite.png"
+      },
+      {
+        "type": 1,
+        "answer": "/images/parkOnZebra.png"
+      }
+    ],
+    "correct": 0,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "Which of these pictures is correct?"
+    },
+    "answers": [
+      {
+        "type": 1,
+        "answer": "/images/pesackoOstrvo.png"
+      },
+      {
+        "type": 1,
+        "answer": "/images/twoCarsWrongTurn.png"
+      },
+      {
+        "type": 1,
+        "answer": "/images/carOnFullLine.png"
+      },
+      {
+        "type": 1,
+        "answer": "/images/threeCarCrossroad.png"
+      }
+    ],
+    "correct": 0,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "Which of the following vehicles is it prohibited to use on a public road?"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "A vehicle with a horn louder than 70 decibels."
+      },
+      {
+        "type": 0,
+        "answer": "A vehicle without a front windshield."
+      },
+      {
+        "type": 0,
+        "answer": "A tank used in warfare."
+      },
+      {
+        "type": 0,
+        "answer": "A vehicle displaying dealer's plates."
+      }
+    ],
+    "correct": 1,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "Which of pictures bellow shows proper stopping?",
+      "url": "/images/carTurnsLeft.png"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Car B."
+      },
+      {
+        "type": 0,
+        "answer": "Car A."
+      },
+      {
+        "type": 0,
+        "answer": "The car traveling faster."
+      },
+      {
+        "type": 0,
+        "answer": "Stop and slow down."
+      }
+    ],
+    "correct": 1,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "Which of the following statements is true?"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "You may allow unlicensed driver to use your vehicle."
+      },
+      {
+        "type": 0,
+        "answer": "It is prohibited to drive a vehicle for which the annual tax has not been paid."
+      },
+      {
+        "type": 0,
+        "answer": "You may allow someone else to use your driver license."
+      },
+      {
+        "type": 0,
+        "answer": "You may display license plates that you have had made yourself."
+      }
+    ],
+    "correct": 1,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "You are required to turn on your headlights:"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "When making a right turn."
+      },
+      {
+        "type": 0,
+        "answer": "To request right of way in an emergency."
+      },
+      {
+        "type": 0,
+        "answer": "When heavy fog restricts visibility to less then 150 meters."
+      },
+      {
+        "type": 0,
+        "answer": "When it is raining."
+      }
+    ],
+    "correct": 2,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "When you see this sign, you should:",
+      "url": "/images/stopAndAllow.png"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Stop and allow oncoming traffic to pass before proceeding."
+      },
+      {
+        "type": 0,
+        "answer": "Reduce your speed and watch for oncoming traffic."
+      },
+      {
+        "type": 0,
+        "answer": "Proceed with caution."
+      },
+      {
+        "type": 0,
+        "answer": "No enter the road ahead."
+      }
+    ],
+    "correct": 0,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "When descending a steep grade or hill, you should:"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Turn off your engine."
+      },
+      {
+        "type": 0,
+        "answer": "Shift to neutral."
+      },
+      {
+        "type": 0,
+        "answer": "Keep your foot on the brake."
+      },
+      {
+        "type": 0,
+        "answer": "Use a low gear."
+      }
+    ],
+    "correct": 3,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "The dividing lines in the middle off the road pictured bellow indicate:",
+      "url": "/images/carOnFullAndBreakLine.png"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Move your car off the road and turn on emergency flashes."
+      },
+      {
+        "type": 0,
+        "answer": "The driver of the car in the picture may make a U-turn."
+      },
+      {
+        "type": 0,
+        "answer": "The driver of the car in the picture may not pull into the right lane to overtake another vehicle."
+      },
+      {
+        "type": 0,
+        "answer": "The driver of the car in the picture may turn right."
+      }
+    ],
+    "correct": 2,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "Where is not permitted to make a U-turn?"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Within 150 meters of a bridge."
+      },
+      {
+        "type": 0,
+        "answer": "In the spaces between traffic islands."
+      },
+      {
+        "type": 0,
+        "answer": "Where another vehicle is following at a distance of less than 150 meters."
+      },
+      {
+        "type": 0,
+        "answer": "On a bridge."
+      }
+    ],
+    "correct": 3,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "Where is it prohibited to make a U-turn?"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "In the spaces between traffic islands."
+      },
+      {
+        "type": 0,
+        "answer": "In an intersection."
+      },
+      {
+        "type": 0,
+        "answer": "Where another vehicle is following at a distance of less than 150 meters."
+      },
+      {
+        "type": 0,
+        "answer": "Within 150 meters of the base of a bridge."
+      }
+    ],
+    "correct": 1,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "You may not park your car."
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Within 15 meters of a fire hydrant."
+      },
+      {
+        "type": 0,
+        "answer": "Within 15 meters of a traffic light."
+      },
+      {
+        "type": 0,
+        "answer": "Within 15 meters of a railroad crossing."
+      },
+      {
+        "type": 0,
+        "answer": "Within 15 meters of a pedestrian crossing."
+      }
+    ],
+    "correct": 2,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "Which of the pictures below illustrates proper parking?"
+    },
+    "answers": [
+      {
+        "type": 1,
+        "answer": "/images/parkCrossParkingPlace.png"
+      },
+      {
+        "type": 1,
+        "answer": "/images/parkNextToHouse.png"
+      },
+      {
+        "type": 1,
+        "answer": "/images/parkCrossRail.png"
+      },
+      {
+        "type": 1,
+        "answer": "/images/parkOnRedWhite.png"
+      }
+    ],
+    "correct": 0,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "When descending a steep grade or hill, you should:"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Keep your foot on the brake."
+      },
+      {
+        "type": 0,
+        "answer": "Use a low gear."
+      },
+      {
+        "type": 0,
+        "answer": "Shift to neutral."
+      },
+      {
+        "type": 0,
+        "answer": "Turn off your engine."
+      }
+    ],
+    "correct": 1,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "This sign means:",
+      "url": "/images/moveToRight.png"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Keep to the right."
+      },
+      {
+        "type": 0,
+        "answer": "All traffic must move to the right."
+      },
+      {
+        "type": 0,
+        "answer": "Right turn allowed."
+      },
+      {
+        "type": 0,
+        "answer": "No left turn."
+      }
+    ],
+    "correct": 1,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "This sign means:",
+      "url": "/images/forbidenToPass.png"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Move to the left."
+      },
+      {
+        "type": 0,
+        "answer": "Single-lane traffic."
+      },
+      {
+        "type": 0,
+        "answer": "Do not pass."
+      },
+      {
+        "type": 0,
+        "answer": "One-way traffic."
+      }
+    ],
+    "correct": 2,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "Which type of vehicle is prohibited to drive on a public roadway?"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "A tractor with rubber tires."
+      },
+      {
+        "type": 0,
+        "answer": "A tank used in warfare."
+      },
+      {
+        "type": 0,
+        "answer": "A vehicle with an 80-decibel engine."
+      },
+      {
+        "type": 0,
+        "answer": "A vehicle with broken taillights."
+      }
+    ],
+    "correct": 3,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "When you see a sign reading 'Left Turn on Red', you should:"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Lover your speed and turn left without delay."
+      },
+      {
+        "type": 0,
+        "answer": "Stop. Wait for pedestrians and other vehicles from the right to pass in front of you before turning left."
+      },
+      {
+        "type": 0,
+        "answer": "Stop. Wait for a green light before turning left."
+      },
+      {
+        "type": 0,
+        "answer": "Turn left without stopping."
+      }
+    ],
+    "correct": 1,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "How far back from the vehicle in front of you should you drive?"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Far enough to allow you to stop safety in emergency."
+      },
+      {
+        "type": 0,
+        "answer": "50 meters."
+      },
+      {
+        "type": 0,
+        "answer": "18 meters."
+      },
+      {
+        "type": 0,
+        "answer": "30 meters."
+      }
+    ],
+    "correct": 0,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "In the situation pictured below, you should:",
+      "url": "/images/obstacleOnLeft.png"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Put on your right turn signal and pass on the left without delay."
+      },
+      {
+        "type": 0,
+        "answer": "Move to the right and proceed around the obstruction without delay."
+      },
+      {
+        "type": 0,
+        "answer": "Put on your right turn signal and wait for Car A to pass before proceeding."
+      },
+      {
+        "type": 0,
+        "answer": "Stop and wait for other car to pass."
+      }
+    ],
+    "correct": 2,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "Which of pictures bellow shows proper stopping?",
+      "url": "/images/carTurnsLeft.png"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Stop and slow down."
+      },
+      {
+        "type": 0,
+        "answer": "The car traveling faster."
+      },
+      {
+        "type": 0,
+        "answer": "Car B."
+      },
+      {
+        "type": 0,
+        "answer": "Car A."
+      }
+    ],
+    "correct": 3,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "Which of the pictures below illustrates proper parking?"
+    },
+    "answers": [
+      {
+        "type": 1,
+        "answer": "/images/parkOnParking.png"
+      },
+      {
+        "type": 1,
+        "answer": "/images/parkNextToYellowSquare.png"
+      },
+      {
+        "type": 1,
+        "answer": "/images/parkNextToHouse.png"
+      },
+      {
+        "type": 1,
+        "answer": "/images/parkOnRedWhite.png"
+      }
+    ],
+    "correct": 0,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "As a driver, you must not:"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Make a turn into the bus lane."
+      },
+      {
+        "type": 0,
+        "answer": "Drive a racing car on a public road with the permission of the relevant traffic authorities."
+      },
+      {
+        "type": 0,
+        "answer": "Carry loads that obstruct your vision behind and to the sides of your vehicle."
+      },
+      {
+        "type": 0,
+        "answer": "Enter halfway into next lane when an obstruction blocks the left side on the lane you are driving in."
+      }
+    ],
+    "correct": 2,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "The driver in Car A should:",
+      "url": "/images/carWithStopSign.png"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Stop behind the lane, and wait to make sure there is no cross traffic before proceeding."
+      },
+      {
+        "type": 0,
+        "answer": "Slow down."
+      },
+      {
+        "type": 0,
+        "answer": "Proceed immediately without stopping or slowing."
+      },
+      {
+        "type": 0,
+        "answer": "Reduce his/her speed and proceed with caution."
+      }
+    ],
+    "correct": 0,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "The sign on the road surface indicates:",
+      "url": "/images/noStop.png"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "No passing within the cross-hatched lines."
+      },
+      {
+        "type": 0,
+        "answer": "The entrance/exit to a building."
+      },
+      {
+        "type": 0,
+        "answer": "No vehicles may cross the cross-hatched lines."
+      },
+      {
+        "type": 0,
+        "answer": "Absolutely no stopping in this area."
+      }
+    ],
+    "correct": 3,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "The driver of the vehicle in the picture:",
+      "url": "/images/mayMakeUTurn.png"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "May not pass or otherwise move into the lane on the right."
+      },
+      {
+        "type": 0,
+        "answer": "Stop or slow down."
+      },
+      {
+        "type": 0,
+        "answer": "May not make a right turn."
+      },
+      {
+        "type": 0,
+        "answer": "May make a U-turn."
+      }
+    ],
+    "correct": 3,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "When is it prohibited for a motorist to drive?"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "After taking medicine for diarrhea."
+      },
+      {
+        "type": 0,
+        "answer": "Immediately after consuming alcohol or any other intoxicant."
+      },
+      {
+        "type": 0,
+        "answer": "When he/she has a cold or flu."
+      },
+      {
+        "type": 0,
+        "answer": "When there is insufficient light."
+      }
+    ],
+    "correct": 1,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "When you see this sign, you should:",
+      "url": "/images/curveToRight.png"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Reduce your speed. The road ahead curves to the right. Drive carefully."
+      },
+      {
+        "type": 0,
+        "answer": "Reduce your speed, then carefully turn left."
+      },
+      {
+        "type": 0,
+        "answer": "No left turn."
+      },
+      {
+        "type": 0,
+        "answer": "Do not go straight ahead."
+      }
+    ],
+    "correct": 0,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "When you see this sign, you should:",
+      "url": "/images/slippery.png"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Drive carefully. Winding road."
+      },
+      {
+        "type": 0,
+        "answer": "Watch for vehicles cutting in front."
+      },
+      {
+        "type": 0,
+        "answer": "Reduce your speed. The road may be slippery."
+      },
+      {
+        "type": 0,
+        "answer": "Stop immediately."
+      }
+    ],
+    "correct": 2,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "Which of the following is NOT permitted?"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Driving when your ability to operate a vehicle is impaired."
+      },
+      {
+        "type": 0,
+        "answer": "Driving in dim or dark conditions with the headlights on, giving visibility of 150 meters."
+      },
+      {
+        "type": 0,
+        "answer": "Driving a racing car on a public road with the permission of the relvant authorities."
+      },
+      {
+        "type": 0,
+        "answer": "Passing on the left when the vehicle you are passing is waiting to make a right turn."
+      }
+    ],
+    "correct": 0,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "Which of the following is true about passing?"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "You may not pass on the left on a road with two or more lanes moving in the same direction."
+      },
+      {
+        "type": 0,
+        "answer": "You may not pass within 150 meters of an intersection."
+      },
+      {
+        "type": 0,
+        "answer": "You may not pass when there is an obstruction in the left lane."
+      },
+      {
+        "type": 0,
+        "answer": "You may not pass on a bridge."
+      }
+    ],
+    "correct": 3,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "Which of the pictures below illustrates proper parking?"
+    },
+    "answers": [
+      {
+        "type": 1,
+        "answer": "/images/parkCrossRail.png"
+      },
+      {
+        "type": 1,
+        "answer": "/images/parkNextToHouse.png"
+      },
+      {
+        "type": 1,
+        "answer": "/images/parkCrossParkingPlace.png"
+      },
+      {
+        "type": 1,
+        "answer": "/images/parkOnRedWhite.png"
+      }
+    ],
+    "correct": 2,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "In the picture below, the driver must:",
+      "url": "/images/stopAndWaitCross.png"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Reduce his/her speed and proceed through the intersection."
+      },
+      {
+        "type": 0,
+        "answer": "Slow down."
+      },
+      {
+        "type": 0,
+        "answer": "Stop and wait for other cars to clear the intersection before proceeding."
+      },
+      {
+        "type": 0,
+        "answer": "Proceed through intersection without stopping."
+      }
+    ],
+    "correct": 2,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "If you experince a breakdown, you should:"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Leave your car at the spot where it breaks down and call a mechanic immediately."
+      },
+      {
+        "type": 0,
+        "answer": "Leave your car at the spot where it breaks down and arrange to have it towed immediately."
+      },
+      {
+        "type": 0,
+        "answer": "Pull your vehicle on to the shoulder and turn on your emergency flashes."
+      },
+      {
+        "type": 0,
+        "answer": "Leave your car at the spot where it breaks and arrange for repairs later."
+      }
+    ],
+    "correct": 2,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "When you see a flashing red light, you should:"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Reduce your speed. Then proceed with caution when it is safe to do so."
+      },
+      {
+        "type": 0,
+        "answer": "Proceed with caution."
+      },
+      {
+        "type": 0,
+        "answer": "Not enter the road ahead."
+      },
+      {
+        "type": 0,
+        "answer": "Stop, then proceed when it is safe to do so."
+      }
+    ],
+    "correct": 3,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "This sign means:",
+      "url": "/images/mayTurnLeft.png"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "You may turn left."
+      },
+      {
+        "type": 0,
+        "answer": "No left turn."
+      },
+      {
+        "type": 0,
+        "answer": "Left curve ahead."
+      },
+      {
+        "type": 0,
+        "answer": "Pass the obstacle ahead on the left."
+      }
+    ],
+    "correct": 0,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "In which of the following circumstances is it forbidden to pass:"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "When there is flooding."
+      },
+      {
+        "type": 0,
+        "answer": "To use bus lane as a passing lane."
+      },
+      {
+        "type": 0,
+        "answer": "In front of hospital."
+      },
+      {
+        "type": 0,
+        "answer": "To pass on the left when the vehicle in front of you is turning right."
+      }
+    ],
+    "correct": 1,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "Which type of vehicle is prohibited to use on a public road?"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "A tractor with rubber tires."
+      },
+      {
+        "type": 0,
+        "answer": "A vehicle with broken brake lights."
+      },
+      {
+        "type": 0,
+        "answer": "A tank used in warfare."
+      },
+      {
+        "type": 0,
+        "answer": "A vehicle whose engine is louder then 80 decibels."
+      }
+    ],
+    "correct": 1,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "When is it prohibited to pass?"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "When you are passing on the left and the vehicle being passed is waiting to turn right."
+      },
+      {
+        "type": 0,
+        "answer": "Where the road is divided by a broken line."
+      },
+      {
+        "type": 0,
+        "answer": "When you are passing on the left on a road with two or more lanes moving in the same direction."
+      },
+      {
+        "type": 0,
+        "answer": "Within 30 meters of a crossroad."
+      }
+    ],
+    "correct": 3,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "The driver intending to make a right turn in the picture should:",
+      "url": "/images/zebra.png"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Slow down."
+      },
+      {
+        "type": 0,
+        "answer": "Begin to turn right, then stop to allow the pedestrians to cross the street before completing the turn."
+      },
+      {
+        "type": 0,
+        "answer": "Stop to allow the pedestrians in the crosswalk to reach the other side of the street before turning right."
+      },
+      {
+        "type": 0,
+        "answer": "Turn immediately without stopping."
+      }
+    ],
+    "correct": 1,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "Where is it prohibited to make a U-turn?"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "In an intersection."
+      },
+      {
+        "type": 0,
+        "answer": "Within 150 meters of a bridge."
+      },
+      {
+        "type": 0,
+        "answer": "In front of hospital."
+      },
+      {
+        "type": 0,
+        "answer": "Where another vehicle is following at a distance of less than 120 meters."
+      }
+    ],
+    "correct": 0,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "The driver of the vehicle in the picture:",
+      "url": "/images/mayMakeUTurn.png"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "May make a U-turn."
+      },
+      {
+        "type": 0,
+        "answer": "Stop or slow down."
+      },
+      {
+        "type": 0,
+        "answer": "May not make a right turn."
+      },
+      {
+        "type": 0,
+        "answer": "May not pass or otherwise move into the lane on the right."
+      }
+    ],
+    "correct": 0,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "Where is it permitted to make a U-turn?"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "In an intersection."
+      },
+      {
+        "type": 0,
+        "answer": "In a pedestrian crossing."
+      },
+      {
+        "type": 0,
+        "answer": "On a bridge."
+      },
+      {
+        "type": 0,
+        "answer": "Where traffic lanes are divided by a broken line."
+      }
+    ],
+    "correct": 3,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "It is prohibited to:"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Pass on the lane left on a road with two or more lanes of traffic moving in the same direction."
+      },
+      {
+        "type": 0,
+        "answer": "Drive when there is insufficient light."
+      },
+      {
+        "type": 0,
+        "answer": "Drive a racing car when permission has been granted by the relevant traffic authorities."
+      },
+      {
+        "type": 0,
+        "answer": "Operate a motor vehicle if you feel the onset of a heart attack."
+      }
+    ],
+    "correct": 3,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "This sign means:",
+      "url": "/images/stopAdvantage.png"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Stop. Give larger vehicles the right of way."
+      },
+      {
+        "type": 0,
+        "answer": "Stop to allow cross traffic or traffic on the main road to pass before proceeding."
+      },
+      {
+        "type": 0,
+        "answer": "Reduce your speed and give other vehicles the right of way."
+      },
+      {
+        "type": 0,
+        "answer": "Stop. Give smaller vehicles the right of way."
+      }
+    ],
+    "correct": 1,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "Where is it prohibited to make a U-turn?"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "In the spaces between traffic islands."
+      },
+      {
+        "type": 0,
+        "answer": "Where another vehicle is following at a distance of less than 150 meters."
+      },
+      {
+        "type": 0,
+        "answer": "Within 150 meters of the base of a bridge."
+      },
+      {
+        "type": 0,
+        "answer": "In an intersection."
+      }
+    ],
+    "correct": 3,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "You must not park:"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "In front of a school."
+      },
+      {
+        "type": 0,
+        "answer": "On the right-hand side of a two-way street."
+      },
+      {
+        "type": 0,
+        "answer": "On a grade."
+      },
+      {
+        "type": 0,
+        "answer": "In front of police station."
+      }
+    ],
+    "correct": 1,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "This sign means:",
+      "url": "/images/noCars.png"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Cars may enter the road ahead."
+      },
+      {
+        "type": 0,
+        "answer": "Cars may not enter the road ahead."
+      },
+      {
+        "type": 0,
+        "answer": "Road ahead is closed to all traffic."
+      },
+      {
+        "type": 0,
+        "answer": "Parking for cars only."
+      }
+    ],
+    "correct": 1,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "When is prohibited to pass?"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "When you are passing on the left on a road with two or more lanes moving in the same direction."
+      },
+      {
+        "type": 0,
+        "answer": "When you are passing on the left and the vehicle being passed is waiting to turn right."
+      },
+      {
+        "type": 0,
+        "answer": "Within 30 meters of a crossroad."
+      },
+      {
+        "type": 0,
+        "answer": "Where the road is divided by a broken line."
+      }
+    ],
+    "correct": 2,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "Which of these statements is true?"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "You may display license plates you have had made yourself."
+      },
+      {
+        "type": 0,
+        "answer": "You may allow unlicensed drivers to use your vehicle."
+      },
+      {
+        "type": 0,
+        "answer": "It is prohibited to drive a vehicle for which the annual tax has not been paid."
+      },
+      {
+        "type": 0,
+        "answer": "You may allow someone else to use your driver license."
+      }
+    ],
+    "correct": 2,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "Which of the pictures below illustrates proper parking?"
+    },
+    "answers": [
+      {
+        "type": 1,
+        "answer": "/images/parkCrossParkingPlace.png"
+      },
+      {
+        "type": 1,
+        "answer": "/images/parkOnRedWhite.png"
+      },
+      {
+        "type": 1,
+        "answer": "/images/parkNextToHouse.png"
+      },
+      {
+        "type": 1,
+        "answer": "/images/parkCrossRail.png"
+      }
+    ],
+    "correct": 0,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "Which of the pictures below illustrates proper parking?"
+    },
+    "answers": [
+      {
+        "type": 1,
+        "answer": "/images/parkOnParking.png"
+      },
+      {
+        "type": 1,
+        "answer": "/images/parkOnRedWhite.png"
+      },
+      {
+        "type": 1,
+        "answer": "/images/parkNextToHouse.png"
+      },
+      {
+        "type": 1,
+        "answer": "/images/parkNextToYellowSquare.png"
+      }
+    ],
+    "correct": 0,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "This sign means:",
+      "url": "/images/roadNarrows.png"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Bridge ahead."
+      },
+      {
+        "type": 0,
+        "answer": "Road narrows ahead."
+      },
+      {
+        "type": 0,
+        "answer": "Parallel road ahead."
+      },
+      {
+        "type": 0,
+        "answer": "Tunel ahead."
+      }
+    ],
+    "correct": 1,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "You are required to turn on your headlights:"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "When it rains. When seeking to overtake other vehicles in an emergency."
+      },
+      {
+        "type": 0,
+        "answer": "When heavy fog restricts visibility to less then 150 meters."
+      },
+      {
+        "type": 0,
+        "answer": "When you intend to make a right turn."
+      },
+      {
+        "type": 0,
+        "answer": "Not pass."
+      }
+    ],
+    "correct": 1,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "As a driver, you must not:"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Enter halfway into next lane when an obstruction blocks the left side on the lane you are driving in."
+      },
+      {
+        "type": 0,
+        "answer": "Make a turn into the bus lane."
+      },
+      {
+        "type": 0,
+        "answer": "Drive a racing car on a public road with the permission of the relevant traffic authorities."
+      },
+      {
+        "type": 0,
+        "answer": "Carry loads that obstruct your vision behind and to the sides of your vehicle."
+      }
+    ],
+    "correct": 3,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "When you see this sign, you should:",
+      "url": "/images/bridgeAhead.png"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Reduce your speed and check for oncoming traffic before crossing. One-lane bridge ahead."
+      },
+      {
+        "type": 0,
+        "answer": "Use low gear. High bridge."
+      },
+      {
+        "type": 0,
+        "answer": "Reduce your speed and proceed across the bridge."
+      },
+      {
+        "type": 0,
+        "answer": "Reduce your speed and use the detour. Bridge out."
+      }
+    ],
+    "correct": 0,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "When you see a flashing red light, you should:"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Stop, then proceed when it is safe to do so."
+      },
+      {
+        "type": 0,
+        "answer": "Not enter the road ahead."
+      },
+      {
+        "type": 0,
+        "answer": "Proceed with caution."
+      },
+      {
+        "type": 0,
+        "answer": "Reduce your speed. Then proceed with caution when it is safe to do so."
+      }
+    ],
+    "correct": 0,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "Which of the pictures below illustrates proper parking?"
+    },
+    "answers": [
+      {
+        "type": 1,
+        "answer": "/images/parkOnZebra.png"
+      },
+      {
+        "type": 1,
+        "answer": "/images/parkCrossParkingPlace.png"
+      },
+      {
+        "type": 1,
+        "answer": "/images/parkOnRedWhite.png"
+      },
+      {
+        "type": 1,
+        "answer": "/images/parkOnYellowWhite.png"
+      }
+    ],
+    "correct": 1,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "When you see a flashing red light, you should:"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Reduce your speed. Then proceed with caution when it is safe to do so."
+      },
+      {
+        "type": 0,
+        "answer": "Proceed with caution."
+      },
+      {
+        "type": 0,
+        "answer": "Stop, then proceed when it is safe to do so."
+      },
+      {
+        "type": 0,
+        "answer": "Not enter the road ahead."
+      }
+    ],
+    "correct": 2,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "This sign means:",
+      "type": 1,
+      "answer": "/images/noCars.png"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Only cars may enter."
+      },
+      {
+        "type": 0,
+        "answer": "Parking for cars only."
+      },
+      {
+        "type": 0,
+        "answer": "The road ahead is closed to all traffic."
+      },
+      {
+        "type": 0,
+        "answer": "Cars may not enter the road ahead."
+      }
+    ],
+    "correct": 3,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "In the situation pictured below, you should:",
+      "url": "/images/obstacleOnLeft.png"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Put on your right turn signal and wait for Car A to pass before proceeding."
+      },
+      {
+        "type": 0,
+        "answer": "Stop and wait for other car to pass."
+      },
+      {
+        "type": 0,
+        "answer": "Put on your right turn signal and pass on the left without delay."
+      },
+      {
+        "type": 0,
+        "answer": "Move to the right and proceed around the obstruction without delay."
+      }
+    ],
+    "correct": 0,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "Which of the pictures below illustrates proper parking?"
+    },
+    "answers": [
+      {
+        "type": 1,
+        "answer": "/images/parkOnRight.png"
+      },
+      {
+        "type": 1,
+        "answer": "/images/parkNextToHouse.png"
+      },
+      {
+        "type": 1,
+        "answer": "/images/parkOnParking.png"
+      },
+      {
+        "type": 1,
+        "answer": "/images/parkNextToYellowSquare.png"
+      }
+    ],
+    "correct": 0,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "This sign means:",
+      "url": "/images/roadNarrows.png"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Tunel ahead."
+      },
+      {
+        "type": 0,
+        "answer": "Lane closed ahead."
+      },
+      {
+        "type": 0,
+        "answer": "Road narrows ahead."
+      },
+      {
+        "type": 0,
+        "answer": "Bridge ahead."
+      }
+    ],
+    "correct": 2,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "The dividing lines in the middle off the road pictured below indicate:",
+      "url": "/images/carOnFullAndBreakLine.png"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Move your car off the road and turn on emergency flashes."
+      },
+      {
+        "type": 0,
+        "answer": "The driver of the car in the picture may turn right."
+      },
+      {
+        "type": 0,
+        "answer": "The driver of the car in the picture may not pull into the right lane to overtake another vehicle."
+      },
+      {
+        "type": 0,
+        "answer": "The driver of the car in the picture may make a U-turn."
+      }
+    ],
+    "correct": 2,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "This sign means:",
+      "url": "/images/schoolZone.jpg"
+    },
+    "images": true,
+    "answers": [
+      {
+        "type": 0,
+        "answer": "School zone. Watch for children."
+      },
+      {
+        "type": 0,
+        "answer": "Pedestrian bridge ahead."
+      },
+      {
+        "type": 0,
+        "answer": "No outlet."
+      },
+      {
+        "type": 0,
+        "answer": "Pedestrian crossing."
+      }
+    ],
+    "correct": 0,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "This sign means:",
+      "url": "/images/minimum30speed.jpeg"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "The minimum speed limit is 30 kilometers per hour"
+      },
+      {
+        "type": 0,
+        "answer": "Vehicles weighing more than 30 tons are prohibited."
+      },
+      {
+        "type": 0,
+        "answer": "The maximum speed limit is 30 kilometers per hour."
+      },
+      {
+        "type": 0,
+        "answer": "Vehicles carrying loads weighing more than 30 tons are prohibited."
+      }
+    ],
+    "correct": 0,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "The sign on the road surface indicates:",
+      "url": "/images/noStop.png"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Absolutely no stopping in this area."
+      },
+      {
+        "type": 0,
+        "answer": "The entrance/exit to a building."
+      },
+      {
+        "type": 0,
+        "answer": "No vehicles may cross the cross-hatched lines."
+      },
+      {
+        "type": 0,
+        "answer": "No passing within the cross-hatched lines."
+      }
+    ],
+    "correct": 0,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "Which of these vehicle is it prohibited to use on a public road?"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "A vehicle with a horn louder then 70 decibels."
+      },
+      {
+        "type": 0,
+        "answer": "A vehicle without a front windshield."
+      },
+      {
+        "type": 0,
+        "answer": "A vehicle displaying dealer plates."
+      },
+      {
+        "type": 0,
+        "answer": "A tank used in warfare."
+      }
+    ],
+    "correct": 1,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "In the picture, the driver of Car A should:",
+      "type": 1,
+      "answer": "/images/greenLightCross.png"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Reduce his/her speed to allow the cars on the left and right to pass before proceeding."
+      },
+      {
+        "type": 0,
+        "answer": "Stop to allow the car on the right to pass before proceeding."
+      },
+      {
+        "type": 0,
+        "answer": "Stop to allow the car on the left to pass before proceeding."
+      },
+      {
+        "type": 0,
+        "answer": "Stop and wait for other car to pass."
+      }
+    ],
+    "correct": 2,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "This sign means:",
+      "url": "/images/noRightTurn.png"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Right turn permitted."
+      },
+      {
+        "type": 0,
+        "answer": "Left turn permitted."
+      },
+      {
+        "type": 0,
+        "answer": "No right turn."
+      },
+      {
+        "type": 0,
+        "answer": "Sharp curve ahead."
+      }
+    ],
+    "correct": 2,
+    "answered": -1
+  },
+  {
+    "question": {
+      "text": "Which of the following statements is true?"
+    },
+    "answers": [
+      {
+        "type": 0,
+        "answer": "Slow-moving vehicles must use the left lane."
+      },
+      {
+        "type": 0,
+        "answer": "Within the Bangkok Metropolitan Area, the maximum speed limit is 60 kilometers per hour."
+      },
+      {
+        "type": 0,
+        "answer": "When making a right turn, you should extend your right arm from the vehicle at shoulder-level and raise and lower."
+      },
+      {
+        "type": 0,
+        "answer": "When making a turn, you should give a signal at least 60 meters before turning."
+      }
+    ],
+    "correct": 0,
+    "answered": -1
+  }
+]

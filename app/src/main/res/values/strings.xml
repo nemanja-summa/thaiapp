@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Tutorial</string>
+    <string name="counter_text">Question %1$d out of %2$d.</string>
+</resources>
