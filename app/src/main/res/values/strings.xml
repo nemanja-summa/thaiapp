@@ -13,6 +13,4 @@
     <string name="no">No</string>
     <string name="dialog_not_all_answered">You haven\'t answered all of the questions, are you sure you want to end?</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
