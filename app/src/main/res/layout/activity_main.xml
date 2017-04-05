@@ -8,68 +8,58 @@
     tools:context="io.summa.tutorial.view.MainActivity">
 
     <LinearLayout
-        android:id="@+id/llContentHolder"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_above="@+id/llNavigationHolder"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/tvCounter"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="8dp"
-            android:text="Question 5 out of 60"/>
-
-
-        <TextView
-            android:id="@+id/tvTitle"
-            style="@style/Base.TextAppearance.AppCompat.Title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="Which of the following statements is true?"/>
+        android:id="@+id/llSocialHolder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
 
         <ImageView
-            android:id="@+id/ivTitleImage"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_gravity="center"
-            android:src="@mipmap/ic_launcher"/>
-
-
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/rvAnswers"
-            android:layout_width="match_parent"
+            android:id="@+id/ivFacebook"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="8dp">
+            android:src="@drawable/post_facebook_black_24dp"
+            />
 
-        </android.support.v7.widget.RecyclerView>
-
-
+        <ImageView
+            android:id="@+id/ivTwitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/post_twitter_black_24dp"/>
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/llNavigationHolder"
-        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="8dp">
+        android:orientation="vertical">
 
         <Button
-            android:id="@+id/btnPrevious"
-            android:layout_width="wrap_content"
+            android:id="@+id/btnSimulateExam"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.5"
-            android:visibility="gone"
-            android:text="previous"/>
+            android:text="@string/simulate_exam"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/simulate_explanation"
+            android:textAlignment="center"/>
 
         <Button
-            android:id="@+id/btnNext"
-            android:layout_width="wrap_content"
+            android:id="@+id/btnPracticeExam"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.5"
-            android:text="next"/>
+            android:text="@string/practice_for_exam"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/practice_explanation"
+            android:textAlignment="center"/>
     </LinearLayout>
-</RelativeLayout>
 
+
+</RelativeLayout>

@@ -80,4 +80,10 @@ public class Helper {
     }
 
 
+    public static int getDrawableIdentifier(Context context, String resourceName) {
+        return context.getResources().getIdentifier(resourceName.toLowerCase(), "drawable", context.getPackageName());
+
+    }
+
+
 }

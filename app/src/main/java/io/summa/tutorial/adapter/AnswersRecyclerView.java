@@ -1,17 +1,20 @@
 package io.summa.tutorial.adapter;
 
 import android.content.Context;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import java.util.List;
-
 import io.summa.tutorial.R;
+import io.summa.tutorial.listener.AnswerMarkedCallback;
 import io.summa.tutorial.model.Answer;
+import io.summa.tutorial.model.Question;
+import io.summa.tutorial.util.Helper;
 
 /**
  * Created by nemanja on 4/1/17.
@@ -20,13 +23,15 @@ import io.summa.tutorial.model.Answer;
 public class AnswersRecyclerView extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
 
-    private List<Answer> mAnswers;
+    private Question mQuestion;
+    private AnswerMarkedCallback mMarkedCallback;
 
-    public AnswersRecyclerView() {
+    public AnswersRecyclerView(AnswerMarkedCallback callback) {
+        mMarkedCallback = callback;
     }
 
-    public void setNewAnswersAndRefresh(List<Answer> answers) {
-        mAnswers = answers;
+    public void setNewAnswersAndRefresh(Question question) {
+        mQuestion = question;
         notifyDataSetChanged();
     }
 
@@ -46,17 +51,22 @@ public class AnswersRecyclerView extends RecyclerView.Adapter<RecyclerView.ViewH
 
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
-        ((BaseViewHolder) holder).bind(mAnswers.get(position));
+        ((BaseViewHolder) holder).bind(mQuestion.getAnswerList().get(position));
     }
 
     @Override
     public int getItemViewType(int position) {
-        return mAnswers.get(position).getType();
+        return mQuestion.getAnswerList().get(position).getType();
     }
 
     @Override
     public int getItemCount() {
-        return mAnswers != null ? mAnswers.size() : 0;
+        return mQuestion.getAnswerList() != null ? mQuestion.getAnswerList().size() : 0;
+    }
+
+
+    private void markAnswer(Answer answer) {
+        mMarkedCallback.onMarked(answer);
     }
 
     private abstract class BaseViewHolder extends RecyclerView.ViewHolder {
@@ -69,44 +79,74 @@ public class AnswersRecyclerView extends RecyclerView.Adapter<RecyclerView.ViewH
 
     private class TextAnswerHolder extends BaseViewHolder {
         TextView mTextAnswer;
+        LinearLayout mllHolder;
 
         TextAnswerHolder(View itemView) {
             super(itemView);
             mTextAnswer = (TextView) itemView.findViewById(R.id.tvAnswerText);
+            mllHolder = (LinearLayout) itemView.findViewById(R.id.llTextHolder);
         }
 
         @Override
-        public void bind(Answer answer) {
+        public void bind(final Answer answer) {
 
             mTextAnswer.setText(answer.getAnswer());
-            mTextAnswer.setOnClickListener(new View.OnClickListener() {
+            mllHolder.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    //todo set answer
+                    if (!mQuestion.isMarked())
+                        markAnswer(answer);
                 }
             });
+
+            if (mQuestion.isMarked()) {
+                int answerIndex = mQuestion.getAnswerList().indexOf(answer);
+                if (answerIndex == mQuestion.getAnsweredIndex() && answerIndex != mQuestion.getCorrectIndex())
+                    mllHolder.setBackgroundColor(ContextCompat.getColor(mllHolder.getContext(), R.color.incorrectBackground));
+                else if (answerIndex == mQuestion.getCorrectIndex())
+                    mllHolder.setBackgroundColor(ContextCompat.getColor(mllHolder.getContext(), R.color.correctBackground));
+                else
+                    mllHolder.setBackgroundColor(ContextCompat.getColor(mllHolder.getContext(), R.color.defaultBackground));
+
+            } else
+                mllHolder.setBackgroundColor(ContextCompat.getColor(mllHolder.getContext(), R.color.defaultBackground));
+
         }
     }
 
-    private class ImageAnswerHolder extends BaseViewHolder implements View.OnClickListener {
+    private class ImageAnswerHolder extends BaseViewHolder {
         ImageView mImageAnswer;
+        LinearLayout mllHolder;
 
         ImageAnswerHolder(View itemView) {
             super(itemView);
             mImageAnswer = (ImageView) itemView.findViewById(R.id.ivAnswerImage);
+            mllHolder = (LinearLayout) itemView.findViewById(R.id.llImageHolder);
         }
 
         @Override
-        public void bind(Answer answer) {
+        public void bind(final Answer answer) {
 
-            //todo set image
+            mImageAnswer.setImageResource(Helper.getDrawableIdentifier(mImageAnswer.getContext(), answer.getAnswer()));
+            mllHolder.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if (!mQuestion.isMarked())
+                        markAnswer(answer);
+                }
+            });
+            if (mQuestion.isMarked()) {
+                int answerIndex = mQuestion.getAnswerList().indexOf(answer);
+                if (answerIndex == mQuestion.getAnsweredIndex() && answerIndex != mQuestion.getCorrectIndex())
+                    mllHolder.setBackgroundColor(ContextCompat.getColor(mllHolder.getContext(), R.color.incorrectBackground));
+                else if (answerIndex == mQuestion.getCorrectIndex())
+                    mllHolder.setBackgroundColor(ContextCompat.getColor(mllHolder.getContext(), R.color.correctBackground));
+                else
+                    mllHolder.setBackgroundColor(ContextCompat.getColor(mllHolder.getContext(), R.color.defaultBackground));
 
-            mImageAnswer.setOnClickListener(this);
+            } else
+                mllHolder.setBackgroundColor(ContextCompat.getColor(mllHolder.getContext(), R.color.defaultBackground));
         }
 
-        @Override
-        public void onClick(View view) {
-            //todo set answer
-        }
     }
 }

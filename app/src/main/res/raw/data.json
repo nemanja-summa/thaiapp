@@ -2,7 +2,7 @@
   {
     "question": {
       "text": "This sign means:",
-      "url": "/images/minimum30speed.jpeg"
+      "url": "minimum30speed"
     },
     "answers": [
       {
@@ -28,7 +28,7 @@
   {
     "question": {
       "text": "This sign means:",
-      "url": "/images/schoolZone.jpg"
+      "url": "schoolZone"
     },
     "images": true,
     "answers": [
@@ -84,19 +84,19 @@
     "answers": [
       {
         "type": 1,
-        "answer": "/images/parkCrossRail.png"
+        "answer": "parkCrossRail"
       },
       {
         "type": 1,
-        "answer": "/images/parkNextToHouse.png"
+        "answer": "parkNextToHouse"
       },
       {
         "type": 1,
-        "answer": "/images/parkCrossParkingPlace.png"
+        "answer": "parkCrossParkingPlace"
       },
       {
         "type": 1,
-        "answer": "/images/parkOnRedWhite.png"
+        "answer": "parkOnRedWhite"
       }
     ],
     "correct": 2,
@@ -130,7 +130,7 @@
   {
     "question": {
       "text": "The sign mean:",
-      "url": "/images/doNotPass.png"
+      "url": "doNotPass"
     },
     "answers": [
       {
@@ -206,7 +206,7 @@
   {
     "question": {
       "text": "When you see this sign, you should:",
-      "url": "/images/pedestriansCrossing.png"
+      "url": "pedestriansCrossing"
     },
     "answers": [
       {
@@ -257,7 +257,7 @@
   {
     "question": {
       "text": "This sign means:",
-      "url": "/images/noUturn.png"
+      "url": "noUturn"
     },
     "answers": [
       {
@@ -308,7 +308,7 @@
   {
     "question": {
       "text": "This sign mean:",
-      "url": "/images/stop.png"
+      "url": "stop"
     },
     "answers": [
       {
@@ -384,7 +384,7 @@
   {
     "question": {
       "text": "In the picture, the driver of Car D wishes to go straight. To do so, he/she should:",
-      "url": "/images/crossRoadCarsWaitForCarA.png"
+      "url": "crossRoadCarsWaitForCarA"
     },
     "answers": [
       {
@@ -410,8 +410,7 @@
   {
     "question": {
       "text": "This sign means:",
-      "type": 1,
-      "answer": "/images/noRightTurn.png"
+      "url": "noRightTurn"
     },
     "answers": [
       {
@@ -437,7 +436,7 @@
   {
     "question": {
       "text": "When you see this sign, you should:",
-      "url": "/images/curveToTheRight.png"
+      "url": "curveToTheRight"
     },
     "answers": [
       {
@@ -463,8 +462,7 @@
   {
     "question": {
       "text": "This sign means:",
-      "type": 1,
-      "answer": "/images/stopAdvantage.png"
+      "url": "stopAdvantage"
     },
     "answers": [
       {
@@ -494,19 +492,19 @@
     "answers": [
       {
         "type": 1,
-        "answer": "/images/parkCrossParkingPlace.png"
+        "answer": "parkCrossParkingPlace"
       },
       {
         "type": 1,
-        "answer": "/images/parkOnYellowWhite.png"
+        "answer": "parkOnYellowWhite"
       },
       {
         "type": 1,
-        "answer": "/images/parkOnRedWhite.png"
+        "answer": "parkOnRedWhite"
       },
       {
         "type": 1,
-        "answer": "/images/parkOnZebra.png"
+        "answer": "parkOnZebra"
       }
     ],
     "correct": 0,
@@ -519,19 +517,19 @@
     "answers": [
       {
         "type": 1,
-        "answer": "/images/pesackoOstrvo.png"
+        "answer": "pesackoOstrvo"
       },
       {
         "type": 1,
-        "answer": "/images/twoCarsWrongTurn.png"
+        "answer": "twoCarsWrongTurn"
       },
       {
         "type": 1,
-        "answer": "/images/carOnFullLine.png"
+        "answer": "carOnFullLine"
       },
       {
         "type": 1,
-        "answer": "/images/threeCarCrossroad.png"
+        "answer": "threeCarCrossroad"
       }
     ],
     "correct": 0,
@@ -565,7 +563,7 @@
   {
     "question": {
       "text": "Which of pictures bellow shows proper stopping?",
-      "url": "/images/carTurnsLeft.png"
+      "url": "carTurnsLeft"
     },
     "answers": [
       {
@@ -641,7 +639,7 @@
   {
     "question": {
       "text": "When you see this sign, you should:",
-      "url": "/images/stopAndAllow.png"
+      "url": "stopAndAllow"
     },
     "answers": [
       {
@@ -692,7 +690,7 @@
   {
     "question": {
       "text": "The dividing lines in the middle off the road pictured bellow indicate:",
-      "url": "/images/carOnFullAndBreakLine.png"
+      "url": "carOnFullAndBreakLine"
     },
     "answers": [
       {
@@ -797,19 +795,19 @@
     "answers": [
       {
         "type": 1,
-        "answer": "/images/parkCrossParkingPlace.png"
+        "answer": "parkCrossParkingPlace"
       },
       {
         "type": 1,
-        "answer": "/images/parkNextToHouse.png"
+        "answer": "parkNextToHouse"
       },
       {
         "type": 1,
-        "answer": "/images/parkCrossRail.png"
+        "answer": "parkCrossRail"
       },
       {
         "type": 1,
-        "answer": "/images/parkOnRedWhite.png"
+        "answer": "parkOnRedWhite"
       }
     ],
     "correct": 0,
@@ -843,7 +841,7 @@
   {
     "question": {
       "text": "This sign means:",
-      "url": "/images/moveToRight.png"
+      "url": "moveToRight"
     },
     "answers": [
       {
@@ -869,7 +867,7 @@
   {
     "question": {
       "text": "This sign means:",
-      "url": "/images/forbidenToPass.png"
+      "url": "forbidenToPass"
     },
     "answers": [
       {
@@ -970,7 +968,7 @@
   {
     "question": {
       "text": "In the situation pictured below, you should:",
-      "url": "/images/obstacleOnLeft.png"
+      "url": "obstacleOnLeft"
     },
     "answers": [
       {
@@ -996,7 +994,7 @@
   {
     "question": {
       "text": "Which of pictures bellow shows proper stopping?",
-      "url": "/images/carTurnsLeft.png"
+      "url": "carTurnsLeft"
     },
     "answers": [
       {
@@ -1026,19 +1024,19 @@
     "answers": [
       {
         "type": 1,
-        "answer": "/images/parkOnParking.png"
+        "answer": "parkOnParking"
       },
       {
         "type": 1,
-        "answer": "/images/parkNextToYellowSquare.png"
+        "answer": "parkNextToYellowSquare"
       },
       {
         "type": 1,
-        "answer": "/images/parkNextToHouse.png"
+        "answer": "parkNextToHouse"
       },
       {
         "type": 1,
-        "answer": "/images/parkOnRedWhite.png"
+        "answer": "parkOnRedWhite"
       }
     ],
     "correct": 0,
@@ -1072,7 +1070,7 @@
   {
     "question": {
       "text": "The driver in Car A should:",
-      "url": "/images/carWithStopSign.png"
+      "url": "carWithStopSign"
     },
     "answers": [
       {
@@ -1098,7 +1096,7 @@
   {
     "question": {
       "text": "The sign on the road surface indicates:",
-      "url": "/images/noStop.png"
+      "url": "noStop"
     },
     "answers": [
       {
@@ -1124,7 +1122,7 @@
   {
     "question": {
       "text": "The driver of the vehicle in the picture:",
-      "url": "/images/mayMakeUTurn.png"
+      "url": "mayMakeUTurn"
     },
     "answers": [
       {
@@ -1175,7 +1173,7 @@
   {
     "question": {
       "text": "When you see this sign, you should:",
-      "url": "/images/curveToRight.png"
+      "url": "curveToRight"
     },
     "answers": [
       {
@@ -1201,7 +1199,7 @@
   {
     "question": {
       "text": "When you see this sign, you should:",
-      "url": "/images/slippery.png"
+      "url": "slippery"
     },
     "answers": [
       {
@@ -1281,19 +1279,19 @@
     "answers": [
       {
         "type": 1,
-        "answer": "/images/parkCrossRail.png"
+        "answer": "parkCrossRail"
       },
       {
         "type": 1,
-        "answer": "/images/parkNextToHouse.png"
+        "answer": "parkNextToHouse"
       },
       {
         "type": 1,
-        "answer": "/images/parkCrossParkingPlace.png"
+        "answer": "parkCrossParkingPlace"
       },
       {
         "type": 1,
-        "answer": "/images/parkOnRedWhite.png"
+        "answer": "parkOnRedWhite"
       }
     ],
     "correct": 2,
@@ -1302,7 +1300,7 @@
   {
     "question": {
       "text": "In the picture below, the driver must:",
-      "url": "/images/stopAndWaitCross.png"
+      "url": "stopAndWaitCross"
     },
     "answers": [
       {
@@ -1378,7 +1376,7 @@
   {
     "question": {
       "text": "This sign means:",
-      "url": "/images/mayTurnLeft.png"
+      "url": "mayTurnLeft"
     },
     "answers": [
       {
@@ -1479,7 +1477,7 @@
   {
     "question": {
       "text": "The driver intending to make a right turn in the picture should:",
-      "url": "/images/zebra.png"
+      "url": "zebra"
     },
     "answers": [
       {
@@ -1530,7 +1528,7 @@
   {
     "question": {
       "text": "The driver of the vehicle in the picture:",
-      "url": "/images/mayMakeUTurn.png"
+      "url": "mayMakeUTurn"
     },
     "answers": [
       {
@@ -1606,7 +1604,7 @@
   {
     "question": {
       "text": "This sign means:",
-      "url": "/images/stopAdvantage.png"
+      "url": "stopAdvantage"
     },
     "answers": [
       {
@@ -1682,7 +1680,7 @@
   {
     "question": {
       "text": "This sign means:",
-      "url": "/images/noCars.png"
+      "url": "noCars"
     },
     "answers": [
       {
@@ -1762,19 +1760,19 @@
     "answers": [
       {
         "type": 1,
-        "answer": "/images/parkCrossParkingPlace.png"
+        "answer": "parkCrossParkingPlace"
       },
       {
         "type": 1,
-        "answer": "/images/parkOnRedWhite.png"
+        "answer": "parkOnRedWhite"
       },
       {
         "type": 1,
-        "answer": "/images/parkNextToHouse.png"
+        "answer": "parkNextToHouse"
       },
       {
         "type": 1,
-        "answer": "/images/parkCrossRail.png"
+        "answer": "parkCrossRail"
       }
     ],
     "correct": 0,
@@ -1787,19 +1785,19 @@
     "answers": [
       {
         "type": 1,
-        "answer": "/images/parkOnParking.png"
+        "answer": "parkOnParking"
       },
       {
         "type": 1,
-        "answer": "/images/parkOnRedWhite.png"
+        "answer": "parkOnRedWhite"
       },
       {
         "type": 1,
-        "answer": "/images/parkNextToHouse.png"
+        "answer": "parkNextToHouse"
       },
       {
         "type": 1,
-        "answer": "/images/parkNextToYellowSquare.png"
+        "answer": "parkNextToYellowSquare"
       }
     ],
     "correct": 0,
@@ -1808,7 +1806,7 @@
   {
     "question": {
       "text": "This sign means:",
-      "url": "/images/roadNarrows.png"
+      "url": "roadNarrows"
     },
     "answers": [
       {
@@ -1884,7 +1882,7 @@
   {
     "question": {
       "text": "When you see this sign, you should:",
-      "url": "/images/bridgeAhead.png"
+      "url": "bridgeAhead"
     },
     "answers": [
       {
@@ -1939,19 +1937,19 @@
     "answers": [
       {
         "type": 1,
-        "answer": "/images/parkOnZebra.png"
+        "answer": "parkOnZebra"
       },
       {
         "type": 1,
-        "answer": "/images/parkCrossParkingPlace.png"
+        "answer": "parkCrossParkingPlace"
       },
       {
         "type": 1,
-        "answer": "/images/parkOnRedWhite.png"
+        "answer": "parkOnRedWhite"
       },
       {
         "type": 1,
-        "answer": "/images/parkOnYellowWhite.png"
+        "answer": "parkOnYellowWhite"
       }
     ],
     "correct": 1,
@@ -1985,8 +1983,7 @@
   {
     "question": {
       "text": "This sign means:",
-      "type": 1,
-      "answer": "/images/noCars.png"
+      "url": "noCars"
     },
     "answers": [
       {
@@ -2012,7 +2009,7 @@
   {
     "question": {
       "text": "In the situation pictured below, you should:",
-      "url": "/images/obstacleOnLeft.png"
+      "url": "obstacleOnLeft"
     },
     "answers": [
       {
@@ -2042,19 +2039,19 @@
     "answers": [
       {
         "type": 1,
-        "answer": "/images/parkOnRight.png"
+        "answer": "parkOnRight"
       },
       {
         "type": 1,
-        "answer": "/images/parkNextToHouse.png"
+        "answer": "parkNextToHouse"
       },
       {
         "type": 1,
-        "answer": "/images/parkOnParking.png"
+        "answer": "parkOnParking"
       },
       {
         "type": 1,
-        "answer": "/images/parkNextToYellowSquare.png"
+        "answer": "parkNextToYellowSquare"
       }
     ],
     "correct": 0,
@@ -2063,7 +2060,7 @@
   {
     "question": {
       "text": "This sign means:",
-      "url": "/images/roadNarrows.png"
+      "url": "roadNarrows"
     },
     "answers": [
       {
@@ -2089,7 +2086,7 @@
   {
     "question": {
       "text": "The dividing lines in the middle off the road pictured below indicate:",
-      "url": "/images/carOnFullAndBreakLine.png"
+      "url": "carOnFullAndBreakLine"
     },
     "answers": [
       {
@@ -2115,7 +2112,7 @@
   {
     "question": {
       "text": "This sign means:",
-      "url": "/images/schoolZone.jpg"
+      "url": "schoolZone"
     },
     "images": true,
     "answers": [
@@ -2142,7 +2139,7 @@
   {
     "question": {
       "text": "This sign means:",
-      "url": "/images/minimum30speed.jpeg"
+      "url": "minimum30speed"
     },
     "answers": [
       {
@@ -2168,7 +2165,7 @@
   {
     "question": {
       "text": "The sign on the road surface indicates:",
-      "url": "/images/noStop.png"
+      "url": "noStop"
     },
     "answers": [
       {
@@ -2219,8 +2216,7 @@
   {
     "question": {
       "text": "In the picture, the driver of Car A should:",
-      "type": 1,
-      "answer": "/images/greenLightCross.png"
+      "url": "greenLightCross"
     },
     "answers": [
       {
@@ -2246,7 +2242,7 @@
   {
     "question": {
       "text": "This sign means:",
-      "url": "/images/noRightTurn.png"
+      "url": "noRightTurn"
     },
     "answers": [
       {

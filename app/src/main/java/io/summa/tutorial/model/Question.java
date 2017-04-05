@@ -13,7 +13,8 @@ public class Question {
     private List<Answer> mAnswerList = new ArrayList<>();
 
     private int mCorrectIndex;
-    private boolean marked;
+    private int mAnsweredIndex;
+    private boolean mMarked;
 
 
     public String getQuestionTitle() {
@@ -49,10 +50,18 @@ public class Question {
     }
 
     public boolean isMarked() {
-        return marked;
+        return mMarked;
     }
 
     public void setMarked(boolean marked) {
-        this.marked = marked;
+        this.mMarked = marked;
+    }
+
+    public int getAnsweredIndex() {
+        return mAnsweredIndex;
+    }
+
+    public void setAnsweredIndex(int answeredIndex) {
+        mAnsweredIndex = answeredIndex;
     }
 }
