@@ -1,8 +1,18 @@
 <resources>
-    <string name="app_name">Thai Driver Licence Exam</string>
+    <string name="app_name">Thai Drivers Exam</string>
     <string name="counter_text">Question %1$d out of %2$d.</string>
     <string name="simulate_exam">Simulate exam</string>
     <string name="simulate_explanation">Exam rules apply, you get 60 random questions. Good luck!</string>
     <string name="practice_for_exam">practice for exam</string>
     <string name="practice_explanation">Go through all questions.</string>
+    <string name="previous">previous</string>
+    <string name="next">next</string>
+    <string name="answered_correct">Answered: %1$d Correct: %2$d.</string>
+    <string name="finish">Finish</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="dialog_not_all_answered">You haven\'t answered all of the questions, are you sure you want to end?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

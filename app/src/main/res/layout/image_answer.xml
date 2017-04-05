@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:layout_gravity="center|top"
     android:layout_margin="6dp"
-    android:background="@color/defaultBackground"
+    android:background="@drawable/outlined_item"
     android:orientation="vertical"
     android:padding="8dp">
 

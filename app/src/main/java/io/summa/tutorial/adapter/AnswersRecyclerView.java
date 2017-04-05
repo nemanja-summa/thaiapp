@@ -101,15 +101,20 @@ public class AnswersRecyclerView extends RecyclerView.Adapter<RecyclerView.ViewH
 
             if (mQuestion.isMarked()) {
                 int answerIndex = mQuestion.getAnswerList().indexOf(answer);
-                if (answerIndex == mQuestion.getAnsweredIndex() && answerIndex != mQuestion.getCorrectIndex())
+                if (answerIndex == mQuestion.getAnsweredIndex() && answerIndex != mQuestion.getCorrectIndex()) {
                     mllHolder.setBackgroundColor(ContextCompat.getColor(mllHolder.getContext(), R.color.incorrectBackground));
-                else if (answerIndex == mQuestion.getCorrectIndex())
+                    mTextAnswer.setTextColor(ContextCompat.getColor(mTextAnswer.getContext(), R.color.selectedTextColor));
+                } else if (answerIndex == mQuestion.getCorrectIndex()) {
                     mllHolder.setBackgroundColor(ContextCompat.getColor(mllHolder.getContext(), R.color.correctBackground));
-                else
-                    mllHolder.setBackgroundColor(ContextCompat.getColor(mllHolder.getContext(), R.color.defaultBackground));
-
-            } else
-                mllHolder.setBackgroundColor(ContextCompat.getColor(mllHolder.getContext(), R.color.defaultBackground));
+                    mTextAnswer.setTextColor(ContextCompat.getColor(mTextAnswer.getContext(), R.color.selectedTextColor));
+                } else {
+                    mllHolder.setBackgroundResource(R.drawable.outlined_item);
+                    mTextAnswer.setTextColor(ContextCompat.getColor(mTextAnswer.getContext(), R.color.defaultTextColor));
+                }
+            } else {
+                mllHolder.setBackgroundResource(R.drawable.outlined_item);
+                mTextAnswer.setTextColor(ContextCompat.getColor(mTextAnswer.getContext(), R.color.defaultTextColor));
+            }
 
         }
     }
@@ -142,10 +147,9 @@ public class AnswersRecyclerView extends RecyclerView.Adapter<RecyclerView.ViewH
                 else if (answerIndex == mQuestion.getCorrectIndex())
                     mllHolder.setBackgroundColor(ContextCompat.getColor(mllHolder.getContext(), R.color.correctBackground));
                 else
-                    mllHolder.setBackgroundColor(ContextCompat.getColor(mllHolder.getContext(), R.color.defaultBackground));
-
+                    mllHolder.setBackgroundResource(R.drawable.outlined_item);
             } else
-                mllHolder.setBackgroundColor(ContextCompat.getColor(mllHolder.getContext(), R.color.defaultBackground));
+                mllHolder.setBackgroundResource(R.drawable.outlined_item);
         }
 
     }

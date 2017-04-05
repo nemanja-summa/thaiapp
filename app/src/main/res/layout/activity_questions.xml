@@ -14,26 +14,40 @@
         android:layout_above="@+id/llNavigationHolder"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/tvCounter"
-            android:layout_width="wrap_content"
+        <RelativeLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="8dp"
-            android:text="Question 5 out of 60"/>
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/tvCounter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="@string/counter_text"/>
+
+            <TextView
+                android:id="@+id/tvAnsweredCorrect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="@string/answered_correct"/>
+        </RelativeLayout>
 
 
         <TextView
             android:id="@+id/tvTitle"
-            style="@style/Base.TextAppearance.AppCompat.Title"
-            android:layout_width="wrap_content"
+            style="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Which of the following statements is true?"/>
+            android:textAlignment="center"
+            android:text="Placeholder question"/>
 
         <ImageView
             android:id="@+id/ivTitleImage"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
             android:layout_gravity="center"
             android:src="@mipmap/ic_launcher"/>
 
@@ -51,9 +65,9 @@
 
     <LinearLayout
         android:id="@+id/llNavigationHolder"
-        android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:paddingTop="8dp">
 
         <Button
@@ -61,15 +75,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
-            android:visibility="gone"
-            android:text="previous"/>
+            android:text="@string/previous"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:visibility="gone"/>
 
         <Button
             android:id="@+id/btnNext"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
-            android:text="next"/>
+            style="@style/Widget.AppCompat.Button.Colored"
+
+            android:text="@string/next"/>
     </LinearLayout>
 </RelativeLayout>
 
