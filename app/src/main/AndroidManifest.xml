@@ -19,8 +19,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.QuestionsActivity"
-            android:screenOrientation="portrait">
+            android:name=".view.LicenceTestActivity"
+            android:parentActivityName=".view.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="io.summa.tutorial.view.MainActivity"/>
         </activity>
         <activity
             android:name=".view.AboutActivity"

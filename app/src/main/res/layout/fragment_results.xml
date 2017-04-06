@@ -1,0 +1,70 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="io.summa.tutorial.view.ResultsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvResultsTitle"
+            style="@style/Base.TextAppearance.AppCompat.Headline"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="40dp"
+            android:text="@string/congrats_you_passed"
+            android:textAlignment="center"/>
+        <TextView
+            android:id="@+id/tvPercentageToPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:paddingBottom="8dp"
+            android:text="@string/percentage_to_pass"/>
+
+        <TextView
+            android:id="@+id/tvAnsweredCorrect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/answered_correct"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/btnReviewMistakes"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/review_mistakes"/>
+
+        <TextView
+            android:id="@+id/tvReviewSubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nothing_to_review"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/btnTryAgain"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/try_again"
+            />
+
+        <Button
+            android:id="@+id/btnMainMenu"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_menu"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>

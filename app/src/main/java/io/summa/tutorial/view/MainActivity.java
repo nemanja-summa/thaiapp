@@ -3,6 +3,7 @@ package io.summa.tutorial.view;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -39,12 +40,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         } else if (view.getId() == R.id.ivTwitter) {
             Toast.makeText(this, "Twitter link goes here", Toast.LENGTH_SHORT).show();
         } else if (view.getId() == R.id.btnSimulateExam) {
-            Intent i = new Intent(MainActivity.this, QuestionsActivity.class);
-            i.putExtra(QuestionsActivity.EXTRA_CONTEXT, QuestionsActivity.EXTRA_SIMULATION);
+            Intent i = new Intent(MainActivity.this, LicenceTestActivity.class);
+            i.putExtra(LicenceTestActivity.EXTRA_CONTEXT, LicenceTestActivity.EXTRA_SIMULATION);
             startActivity(i);
         } else if (view.getId() == R.id.btnPracticeExam) {
-            Intent i = new Intent(MainActivity.this, QuestionsActivity.class);
-            i.putExtra(QuestionsActivity.EXTRA_CONTEXT, QuestionsActivity.EXTRA_PRACTICE);
+            Intent i = new Intent(MainActivity.this, LicenceTestActivity.class);
+            i.putExtra(LicenceTestActivity.EXTRA_CONTEXT, LicenceTestActivity.EXTRA_PRACTICE);
             startActivity(i);
         }
     }

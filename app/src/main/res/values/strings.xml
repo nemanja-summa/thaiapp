@@ -2,15 +2,27 @@
     <string name="app_name">Thai Drivers Exam</string>
     <string name="counter_text">Question %1$d out of %2$d.</string>
     <string name="simulate_exam">Simulate exam</string>
-    <string name="simulate_explanation">Exam rules apply, you get 60 random questions. Good luck!</string>
+    <string name="simulate_explanation">Exam rules apply, you get 50 random questions. Good luck!</string>
     <string name="practice_for_exam">practice for exam</string>
     <string name="practice_explanation">Go through all questions.</string>
     <string name="previous">previous</string>
     <string name="next">next</string>
     <string name="answered_correct">Answered: %1$d Correct: %2$d.</string>
+    <string name="answered_correct_unanswered">Answered: %1$d Correct: %2$d Unanswered: %3$d</string>
     <string name="finish">Finish</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="dialog_not_all_answered">You haven\'t answered all of the questions, are you sure you want to end?</string>
+    <string name="title_activity_licence_test">LicenceTestActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="nothing_to_review">Nothing to review, every answer you gave was correct!</string>
+    <string name="try_again">try again</string>
+    <string name="main_menu">main menu</string>
+    <string name="review_mistakes">Review mistakes</string>
+    <string name="congrats_you_passed">Congrats, you passed!</string>
+    <string name="sorry_you_failed">Sorry, you failed…</string>
+    <string name="congrats_you_are_done">Finished!</string>
+    <string name="percentage_to_pass">Percentage needed to pass: %1$d%% Acquired: %2$d%%</string>
+
 
 </resources>
