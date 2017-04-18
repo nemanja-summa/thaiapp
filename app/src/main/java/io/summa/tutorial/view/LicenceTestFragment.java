@@ -95,8 +95,6 @@ public class LicenceTestFragment extends Fragment implements View.OnClickListene
             nextQuestion();
             loadQuestion();
         } else if (view.getId() == R.id.btnPrevious) {
-            if (mQuestions.size() - 1 <= mPageIndex)
-                return;
             previousQuestion();
             loadQuestion();
         }
