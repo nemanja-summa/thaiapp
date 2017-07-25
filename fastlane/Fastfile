@@ -50,7 +50,7 @@ lane :beta do
             slack_url: "https://hooks.slack.com/services/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",
             message: "New version of Coligo messenger added to Fabric Beta",
             username: "Coligo Bot",
-            channel: "#native",
+            #channel: "#native",
             icon_url: "http://i.imgur.com/1nN9U2r.png",
             default_payloads: [],
             payload: {
@@ -68,7 +68,7 @@ lane :beta do
 
         #git new tag
         add_git_tag(
-          tag: "v" + [SharedValues::ANDROID_VERSION_NAME]
+          tag: "v" + lane_context[SharedValues::ANDROID_VERSION_NAME]
         )
 
         #push to stable
