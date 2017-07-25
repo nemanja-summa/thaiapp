@@ -36,7 +36,8 @@ captures/
 *.iml
 .idea/workspace.xml
 
-
+#OS files
+.DS_Store
 
 # User-specific configurations
 .idea/

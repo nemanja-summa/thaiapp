@@ -4,7 +4,7 @@
 # can also be listed using the `fastlane actions` command
 
 
-update_fastlane
+#update_fastlane
 
 # This is the minimum version number required.
 # Update this, if you use features of a newer version
