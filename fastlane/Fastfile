@@ -69,7 +69,8 @@ lane :beta do
 
         #git new tag
         add_git_tag(
-          tag: "v" + lane_context[SharedValues::ANDROID_VERSION_NAME]
+          tag: "v" + lane_context[SharedValues::ANDROID_VERSION_NAME],
+          message: changelog
         )
 
         #push to stable
