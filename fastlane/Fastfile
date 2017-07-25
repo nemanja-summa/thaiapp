@@ -3,64 +3,77 @@
 # All available actions: https://docs.fastlane.tools/actions
 # can also be listed using the `fastlane actions` command
 
-# Change the syntax highlighting to Ruby
-# All lines starting with a # are ignored when running `fastlane`
 
-# If you want to automatically update fastlane if a new version is available:
-# update_fastlane
+update_fastlane
 
 # This is the minimum version number required.
 # Update this, if you use features of a newer version
-fastlane_version "2.47.0"
+fastlane_version "2.46.1"
+
+# This value helps us track success metrics for Fastfiles
+# we automatically generate. Feel free to remove this line
+# once you get things running smoothly!
+generated_fastfile_id "60ebab3e-2cb9-465c-9f11-cba10543d5c8"
 
 default_platform :android
 
-platform :android do
-  before_all do
-    # ENV["SLACK_URL"] = "https://hooks.slack.com/services/..."
-  end
+# Fastfile actions accept additional configuration, but
+# don't worry, fastlane will prompt you for required
+# info which you can add here later
+lane :beta do
+    if "stable" != current_branch
+        UI.user_error!("Please switch to stable branch when creating the build.")
+    else
+        #first we don't have uncommited changes
+        ensure_git_status_clean
 
-  desc "Runs all the tests"
-  lane :test do
-    gradle(task: "test")
-  end
+        #pull latest version, "protiv uroka"
+        git_pull
 
-  desc "Submit a new Beta Build to Crashlytics Beta"
-  lane :beta do
-    gradle(task: "assembleRelease")
-    crashlytics
+        # increment the build version code and name
+        increment_android_version_code(path: "app/build.gradle")
+        increment_android_version_name(path: "app/build.gradle", type: "patch") #todo pass this param maybe?
 
-    # sh "your_script.sh"
-    # You can also use other beta testing services here
-  end
+        #get changelog from commits
+        changelog_from_git_commits
 
-  desc "Deploy a new version to the Google Play"
-  lane :deploy do
-    gradle(task: "assembleRelease")
-    supply
-  end
+        # build the release variant
+        gradle(task: "assembleRelease")
 
-  # You can define as many lanes as you want
+        # upload to Beta by Crashlytics
+        crashlytics(
+            api_token: "31bbb01b57fcc2466eafe396865bc324f8a56f8b",
+            build_secret: "6646557059011dacaae43c6077a37c8fe09cfbc249adfcb75ec7051920a3a00a"
+          )
 
-  after_all do |lane|
-    # This block is called, only if the executed lane was successful
+        slack(
+            slack_url: "https://hooks.slack.com/services/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",
+            message: "New version of Coligo messenger added to Fabric Beta",
+            username: "Coligo Bot",
+            channel: "#native",
+            icon_url: "http://i.imgur.com/1nN9U2r.png",
+            default_payloads: [],
+            payload: {
+                "Built at" => Time.new.to_s,
+                "Version code" => lane_context[SharedValues::ANDROID_VERSION_CODE],
+                "Version name" => lane_context[SharedValues::ANDROID_VERSION_NAME]
+            },
+            attachment_properties:{
+                thumb_url: "http://i.imgur.com/1nN9U2r.png"
+            }
+        )
 
-    # slack(
-    #   message: "Successfully deployed new App Update."
-    # )
-  end
+        #after everything, commit
+        git_commit(path: "app/build.gradle", message: "Bumped app version to " + lane_context[SharedValues::ANDROID_VERSION_NAME])
 
-  error do |lane, exception|
-    # slack(
-    #   message: exception.message,
-    #   success: false
-    # )
-  end
+        #git new tag
+        add_git_tag(
+          tag: "v" + [SharedValues::ANDROID_VERSION_NAME]
+        )
+
+        #push to stable
+        push_to_git_remote
+    end
+
+
 end
-
-
-# More information about multiple platforms in fastlane: https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Platforms.md
-# All available actions: https://docs.fastlane.tools/actions
-
-# fastlane reports which actions are used. No personal data is recorded. 
-# Learn more at https://github.com/fastlane/fastlane#metrics
