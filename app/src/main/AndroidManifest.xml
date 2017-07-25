@@ -3,6 +3,7 @@
           package="io.summa.tutorial">
 
     <application
+        android:name=".MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -31,6 +32,11 @@
             android:name=".view.AboutActivity"
             android:screenOrientation="portrait">
         </activity>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="31bbb01b57fcc2466eafe396865bc324f8a56f8b"/>
     </application>
 
+    <uses-permission android:name="android.permission.INTERNET"/>
 </manifest>
