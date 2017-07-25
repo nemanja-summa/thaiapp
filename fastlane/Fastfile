@@ -35,7 +35,7 @@ lane :beta do
         increment_android_version_name(path: "app/build.gradle", type: "patch") #todo pass this param maybe?
 
         #get changelog from commits
-        changelog_from_git_commits
+        changelog = changelog_from_git_commits
 
         # build the release variant
         gradle(task: "assembleRelease")
@@ -43,7 +43,8 @@ lane :beta do
         # upload to Beta by Crashlytics
         crashlytics(
             api_token: "31bbb01b57fcc2466eafe396865bc324f8a56f8b",
-            build_secret: "6646557059011dacaae43c6077a37c8fe09cfbc249adfcb75ec7051920a3a00a"
+            build_secret: "6646557059011dacaae43c6077a37c8fe09cfbc249adfcb75ec7051920a3a00a",
+            notes: changelog
           )
 
         slack(
