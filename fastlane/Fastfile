@@ -21,7 +21,7 @@ default_platform :android
 # don't worry, fastlane will prompt you for required
 # info which you can add here later
 lane :beta do
-    if "stable" != current_branch
+    if "stable" != git_branch
         UI.user_error!("Please switch to stable branch when creating the build.")
     else
         #first we don't have uncommited changes
